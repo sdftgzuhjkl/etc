@@ -1,0 +1,8 @@
+TARGETS = rsyslog killprocs single ssh cron rsync ondemand rc.local
+INTERACTIVE =
+single: killprocs
+ssh: rsyslog
+cron: rsyslog
+rsync: rsyslog
+ondemand: rsyslog ssh cron rsync
+rc.local: rsyslog ssh cron rsync

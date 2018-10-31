@@ -1,0 +1,4 @@
+domain schulen-fulda.de
+search schulen-fulda.de
+nameserver 10.100.12.1
+nameserver 10.100.12.2
